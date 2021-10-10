@@ -1052,6 +1052,7 @@ pre tt:after {
     display: flex;
     flex-direction: row;
   }
+
   .roadmap__grid {
     position: relative;
     display: grid;
@@ -1074,6 +1075,12 @@ pre tt:after {
     margin-right: 0%;
     line-height: 2rem;
   }
+
+  .welcome__title{
+    font-size: 38px;
+    line-height: 110%;
+  }
+
   .roadmap__btn {
     min-width: 1em;
     text-decoration: none;
