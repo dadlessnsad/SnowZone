@@ -23,7 +23,7 @@ export default class PercyForm extends Component {
         return (
             <div className="container">
                 <form  onSubmit={this.handleSubmit} class="mint__form__container">
-                  <label><span class="mint__max">Amount:</span></label>
+                  <label><span class="mint__max">Amount:</span>
                   <input 
                     class="mint__input__container"
                     type="number"
@@ -34,6 +34,7 @@ export default class PercyForm extends Component {
                     required
                   />            
                   <button class="mint__button" type="submit">Mint Percy</button>
+                  </label>
                 </form> 
             </div>
         );

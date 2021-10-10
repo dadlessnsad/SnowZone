@@ -11,7 +11,7 @@ const Footer = ({ siteTitle }) =>  (
               height={100}
               width={100}
               quality={100}
-              
+              alt="snowflake logo"
             />
         </div>
         <div class="footer__center">  
@@ -27,7 +27,7 @@ const Footer = ({ siteTitle }) =>  (
               height={100}
               width={100}
               quality={100}
-              
+              alt="cubedrop logo"
             />      
         </div>
     </footer>
