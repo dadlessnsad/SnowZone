@@ -23,7 +23,7 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 body::-webkit-scrollbar {
-  width: 7.5rem;
+  width: .25rem;
 }
 body::-webkit-scrollbar-track {
   background: #fd02f1;
@@ -62,6 +62,9 @@ progress {
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(150deg, rgba(138, 47, 168, 1),rgba(138, 47, 168, 1), rgba(120, 131, 196, 1), rgba(111, 172, 209, 1), rgba(102, 214, 223, 1), rgba(102, 214, 223,1));
+}
+.gatsby-image-wrapper {
+  position: absolute;
 }
 header {
   position: fixed;
@@ -141,7 +144,6 @@ header {
   color:#000;
 }
 .welcome__section {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,16 +151,16 @@ header {
   padding: 0 60px;
 }
 .pmcommon__img {
-  position: absolute;
-  top: 150px;
-  left: 20px;
+  position: absolute !important;
+  top: 150px !important;
+  left: 20px !important;
   z-index: 0;
   rotate: 2deg;
 }
 .pfcommon__img {
-  position: absolute;
-  top: 555px;
-  right: 20px;
+  position: absolute !important;
+  top: 555px !important;
+  right: 20px !important;
   z-index: 0;
   rotate: -2deg;
 }
@@ -270,10 +272,9 @@ header {
   color: #000;
 }
 .roadmap__section {
-  position: relative;
   display: flex;
   min-height: 720px;
-  padding: 150px 60px;
+  padding: 40px 60px;
 }
 .roadmap__container {
   max-width: 1110px;
@@ -1081,19 +1082,18 @@ pre tt:after {
   }
 
   .pmcommon__img {
-    position: absolute;
-    top: 769px;
-    left: 96px;
+    position: absolute !important;
+    top: 769px !important;
+    left: 96px  !important;
     z-index: 0;
-    rotate: 2deg;
   }
 
   .pfcommon__img {
-    display: none
+    display: none !important;
   }
 
   .cubedrop__img {
-    display: none
+    display: none !important;
   }
 
   .mint__grid {

@@ -67,3 +67,11 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+# server
+firestore.rules
+firestore.indexes.json
+.firebaserc
+.firebase
+firebase.json
+#Github
+.github

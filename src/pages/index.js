@@ -1,9 +1,9 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../components/layout";
+import Seo from "../components/seo";
 
 const IndexPage = () => (
   <Layout>
@@ -12,14 +12,12 @@ const IndexPage = () => (
       <div class="welcome__section">
         <StaticImage
           src="../images/pfcommon1.png"
-          height={300}
           quality={100}
           alt="Percy common skin one"
           class="pfcommon__img"
         />
         <StaticImage
           src="../images/pmcommon1.png"
-          height={300}
           quality={100}
           alt="Percy common skin one"
           class="pmcommon__img"
@@ -74,20 +72,18 @@ const IndexPage = () => (
         </div>
 
         <div id="roadmap" class="roadmap__section">
-        <StaticImage
+          <StaticImage
           src="../images/pfcommon1.png"
-          height={300}
           quality={100}
           alt="Percy common skin one"
           class="pfcommon__img"
-        />
-        <StaticImage
+          />
+          <StaticImage
           src="../images/pmcommon1.png"
-          height={300}
           quality={100}
           alt="Percy common skin one"
           class="pmcommon__img"
-        />
+          />
           <div class="roadmap__container">
             <h1>ROADMAP</h1>
             <div class="roadmap__grid">

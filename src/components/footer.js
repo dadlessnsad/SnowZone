@@ -1,7 +1,7 @@
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
+import * as React from "react";
+import PropTypes from "prop-types";
 
 const Footer = ({ siteTitle }) =>  (
     <footer class="footer__container">
