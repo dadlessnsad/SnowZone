@@ -1,3 +1,4 @@
+/*#region HTML Body */
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -66,6 +67,8 @@ progress {
 .gatsby-image-wrapper {
   position: absolute;
 }
+/*#endregion */
+/*#region Header*/
 header {
   position: fixed;
   min-height: 88px;
@@ -143,6 +146,9 @@ header {
   justify-content: center;
   color:#000;
 }
+/* #endregion */
+
+/*#region Welcom section */
 .welcome__section {
   display: flex;
   align-items: center;
@@ -233,6 +239,9 @@ header {
   color: #000;
   text-decoration: none;
 }
+/* #endregion */
+
+/*#region About section */
 .about__section {
   min-height: 560px;
   position: relative;
@@ -271,6 +280,9 @@ header {
   font-size: 18px;
   color: #000;
 }
+/* #endregion */
+
+/*#region Road Map Region */
 .roadmap__section {
   display: flex;
   min-height: 720px;
@@ -319,6 +331,9 @@ header {
   color: #000;
   transition: 50ms ease-in;
 }
+/* #endregion */
+
+/*#region Mint page */
 .mintpage {
   min-height: 960px;
 }
@@ -438,6 +453,9 @@ header {
   line-height: 24px;
   color: rgb(0, 0, 0);
 }
+/* #endregion */
+
+/*#region Footer section */
 .footer__container {
   display: inline-flex;
   justify-content: space-around;
@@ -483,6 +501,9 @@ header {
   transition: ease-in 300ms;
   font-size: 24px;
 }
+/* #endregion */
+
+/*#region Hidden section */
 [hidden],
 template {
   display: none;
@@ -1025,6 +1046,10 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+/*# endregion */
+
+/*#region Small Screens */
 @media only screen and (max-width: 600px) {
   html {
     margin: 0;
@@ -1116,3 +1141,4 @@ pre tt:after {
     padding-right: 20px;
   }
 }
+/* #endregion */
