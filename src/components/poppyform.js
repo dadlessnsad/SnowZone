@@ -51,6 +51,7 @@ export default class PoppyForm extends Component {
         txParamsOverride
       )
     } catch (error) {
+      alert("Insufficient balance");
       console.error(error)
     }
   }

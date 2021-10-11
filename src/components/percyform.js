@@ -50,6 +50,7 @@ export default class PercyForm extends Component {
         txParamsOverride
       )
     } catch (error) {
+      alert("Insufficient balance.");
       console.error(error)
     }
   }
