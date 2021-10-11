@@ -15,6 +15,7 @@ const MintPage = () => (
         <div class="mint__container">
           <h1 class="mint__container__title">Mint Your Own Penguin</h1>
           <p class="mint__intro">Here you can choose to mint a Percy, or a Poppy or Both!</p>
+          <p class="mint__intro">Remember in-order to breed in future release's, you will need both a Percy, and Poppy Penguin!</p>
           <div class="mint__grid">
             <div class="mint__grid__item">
               <h1 class="mint__title">Percy Penguin</h1>
