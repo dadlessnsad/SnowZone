@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*#region Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
@@ -6,6 +7,8 @@
 
 /* #endregion */
 
+=======
+>>>>>>> e12dfe8fc14c5b1cbbfcf7cb096bcc0239390184
 /*#region HTML Body */
 html {
   -ms-text-size-adjust: 100%;
@@ -76,7 +79,10 @@ progress {
   position: absolute;
 }
 /*#endregion */
+<<<<<<< HEAD
 
+=======
+>>>>>>> e12dfe8fc14c5b1cbbfcf7cb096bcc0239390184
 /*#region Header*/
 header {
   position: fixed;
@@ -158,7 +164,11 @@ header {
 }
 /* #endregion */
 
+<<<<<<< HEAD
 /*#region Welcome section */
+=======
+/*#region Welcom section */
+>>>>>>> e12dfe8fc14c5b1cbbfcf7cb096bcc0239390184
 .welcome__section {
   display: flex;
   align-items: center;
@@ -485,6 +495,7 @@ header {
 }
 /* #endregion */
 
+<<<<<<< HEAD
 /*#region My Character Page */
 .mycharacter__page {
   display: flex;
@@ -499,6 +510,8 @@ header {
 }
 /* #endregion */
 
+=======
+>>>>>>> e12dfe8fc14c5b1cbbfcf7cb096bcc0239390184
 /*#region Footer section */
 .footer__container {
   display: inline-flex;
@@ -1090,7 +1103,12 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+<<<<<<< HEAD
 /*#endregion */
+=======
+
+/*# endregion */
+>>>>>>> e12dfe8fc14c5b1cbbfcf7cb096bcc0239390184
 
 /*#region Small Screens */
 @media only screen and (max-width: 600px) {
