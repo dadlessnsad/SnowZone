@@ -98,6 +98,9 @@ const Header = ({ siteTitle }) => {
       </div>
       <div class="desktop__nav">
         <ui class="desktop__nav__ui">
+          <Link class="desktop__nav__link" to="/">
+            Home
+          </Link>
           <Link class="desktop__nav__link" to="../mintpage/">
             Mint
           </Link>

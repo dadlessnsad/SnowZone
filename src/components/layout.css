@@ -1,3 +1,12 @@
+/*#region Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+
+/* #endregion */
+
+/*#region HTML Body */
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -66,6 +75,9 @@ progress {
 .gatsby-image-wrapper {
   position: absolute;
 }
+/*#endregion */
+
+/*#region Header*/
 header {
   position: fixed;
   min-height: 88px;
@@ -89,6 +101,7 @@ header {
 }
 .app__logo__title {
   margin: 0px;
+  font-family: "Dosis", sans-serif;
 }
 .desktop__nav {
   position: relative;
@@ -104,8 +117,8 @@ header {
   text-decoration: none;
   color: #fff;
   display: flex;
-  font-family: "Sharp Grotesk Medium",sans-serif;
-  font-size: 18px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 20px;
   padding: 10px 10px;
 }
 .desktop__nav__link:hover {
@@ -116,7 +129,7 @@ header {
 .account__container {
   position: relative;
   display: flex;
-  font-family: "Sharp Grotesk Medium",sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -133,7 +146,7 @@ header {
   margin-left: 30px;
   margin-right: 1.5%;
   cursor: pointer;
-  font-family: "Sharp Grotesk Medium",sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 18px;
   color: #fff;
   position: relative;
@@ -143,6 +156,9 @@ header {
   justify-content: center;
   color:#000;
 }
+/* #endregion */
+
+/*#region Welcome section */
 .welcome__section {
   display: flex;
   align-items: center;
@@ -191,7 +207,7 @@ header {
   align-items: center;
 }
 .welcome__title {
-  font-family: "Sharp Grotesk SemiBold",sans-serif;
+  font-family: "Dosis", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -200,10 +216,10 @@ header {
 }
 .left__text {
   margin: 30px 0 50px;
-  font-family: "Space Grotesk",sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 150%;
   color: hsla(0,0%,100%,.8);
   max-width: 475px;
@@ -223,8 +239,8 @@ header {
   border-radius: 12px;
   align-items: center;
   justify-content: center;
-  font-family: "Space Grotesk",sans-serif;
-  font-size: 18px;
+  font-family: "Rajdhani",sans-serif;
+  font-size: 22px;
   line-height: 24px;
   color: #000;
   transition: 50ms ease-in;
@@ -233,6 +249,9 @@ header {
   color: #000;
   text-decoration: none;
 }
+/* #endregion */
+
+/*#region About section */
 .about__section {
   min-height: 560px;
   position: relative;
@@ -256,21 +275,24 @@ header {
 }
 .about__title {
   padding-top: 25px;
-  font-family: "Sharp Grotesk SemiBold",sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
+  font-family: "Dosis", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 48px;
   line-height: 140%;
   color: #000;
 }
 .about__description {
-  padding: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
-  font-style: italic;
+  padding: 10px;
+  padding-left: 75px;
+  padding-right: 75px;
+  font-family: "Rajdhani", sans-serif;
   font-size: 18px;
   color: #000;
 }
+/* #endregion */
+
+/*#region Road Map Region */
 .roadmap__section {
   display: flex;
   min-height: 720px;
@@ -302,6 +324,20 @@ header {
   position: relative;
   line-height: 1.75em;
 }
+.roadmap__title {
+  font-family: "Dosis", sans-serif;
+  font-size: 76px;
+  letter-spacing: 8px;
+  text-align: center;
+}
+.roadmap__item__title {
+  font-family: "Dosis", sans-serif;
+  font-size: 36px;
+  color: rgb(34, 34, 33);
+}
+.roadmap__desc {
+  font-family: "Rajdhani", sans-serif;
+}
 .roadmap__btn {
   min-width: 1em;
   text-decoration: none;
@@ -312,13 +348,16 @@ header {
   border-radius: 12px;
   align-items: center;
   justify-content: center;
-  font-family: "Space Grotesk",sans-serif;
+  font-family: "Rajdhani",sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
   color: #000;
   transition: 50ms ease-in;
 }
+/* #endregion */
+
+/*#region Mint page */
 .mintpage {
   min-height: 960px;
 }
@@ -341,6 +380,9 @@ header {
   align-items: center;
   justify-content: center;
   display: flex;
+  font-family: "Dosis", sans-serif;
+  font-size: 76px;
+  font-weight: bold;
   color:rgb(0, 0, 0);
 }
 .mint__intro {
@@ -348,7 +390,8 @@ header {
   align-items: center;
   display: flex;
   color: rgb(0, 0, 0);
-  font-size: 24px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 36px;
   padding: 10px;
 }
 .matic__logo{
@@ -376,6 +419,7 @@ header {
   justify-content: center;
   align-items: center;
   display: flex;
+  font-family: "Dosis", sans-serif;
   color: rgba(138, 47, 168, 1);
 }
 .mint__max {
@@ -384,6 +428,7 @@ header {
   text-align: center;
   display: flex;
   color:black;
+  font-family: "Rajdhani", sans-serif;
   font-size: 22px;
 }
 .mintpercy__img__container {
@@ -432,12 +477,29 @@ header {
   border-radius: 12px;
   align-items: center;
   justify-content: center;
-  font-family: "Space Grotesk",sans-serif;
+  font-family: "Rajdhani",sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 24px;
   color: rgb(0, 0, 0);
 }
+/* #endregion */
+
+/*#region My Character Page */
+.mycharacter__page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 960px;
+  padding: 0 60px;
+}
+.character__container {
+  display: flex;
+  position: relative;
+}
+/* #endregion */
+
+/*#region Footer section */
 .footer__container {
   display: inline-flex;
   justify-content: space-around;
@@ -474,8 +536,8 @@ header {
   color: #fff;
   position: relative;
   display: flex;
-  font-family: "Sharp Grotesk Medium",sans-serif;
-  font-size: 20px;
+  font-family: "Dosis",sans-serif;
+  font-size: 28px;
   padding: 15px 15px;
 }
 .footer__link:hover {
@@ -483,6 +545,9 @@ header {
   transition: ease-in 300ms;
   font-size: 24px;
 }
+/* #endregion */
+
+/*#region Hidden section */
 [hidden],
 template {
   display: none;
@@ -1025,6 +1090,9 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+/*#endregion */
+
+/*#region Small Screens */
 @media only screen and (max-width: 600px) {
   html {
     margin: 0;
@@ -1109,10 +1177,16 @@ pre tt:after {
     grid-template-columns: repeat(1,1fr);
     grid-gap: 100px;
   }
-
+  .mint__container__title {
+    font-size: 46px;
+  }
+  .mint__intro {
+    font-size: 24px;
+  }
   .about__description {
     padding: 20px;
     padding-left: 20px;
     padding-right: 20px;
   }
 }
+/* #endregion */
