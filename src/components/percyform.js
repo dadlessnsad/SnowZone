@@ -28,7 +28,7 @@ export default class PercyForm extends Component {
       const weiValueString = weiValue.toString()
       let estimatedGas
       try {
-        const gasLimit = await contractSigner.estimateGas.mintPoppy(
+        const gasLimit = await contractSigner.estimateGas.mintPercy(
           Number(this.state.amount),
           {
             value: ethers.utils.parseEther(weiValueString),
@@ -45,7 +45,7 @@ export default class PercyForm extends Component {
       if (estimatedGas) {
         txParamsOverride.gasLimit = estimatedGas
       }
-      const tx = await contractSigner.mintPoppy(
+      const tx = await contractSigner.mintPercy(
         Number(this.state.amount),
         txParamsOverride
       )
