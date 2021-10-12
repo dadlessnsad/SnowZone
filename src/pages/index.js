@@ -24,8 +24,8 @@ const IndexPage = () => (
         />
         <div class="welcome__section__container">
           <div class="left">
-            <h1 class="welcome__title">The Snow-Zone Meta Verse Built on Polygon by Cube Drop</h1>
-              <p class="left__text">Mint, Breed, Stud-Out your Penguins</p>
+            <h1 class="welcome__title">The Snowzone Metaverse Built on Polygon by Cube Drop</h1>
+              <p class="left__text">Mint, Breed, Stud-out your Penguins</p>
               <div class="button__container">
                 <button class="left__button"><Link to="../mintpage/" class="left__button__link">Mint</Link></button>
                 <button class="left__button"><Link to="#roadmap" class="left__button__link">RoadMap</Link></button>
@@ -47,26 +47,28 @@ const IndexPage = () => (
         <div class="about__section">
           <div class="about__section__container">
             <div class="snowzone__description">
-              <h1 class="about__title">What is The Snow Zone</h1>
-              <p class="about__description">The legend Of The Snow Zone Begins</p>
+              <h1 class="about__title">What is The Snowzone?
+              </h1>
+              <p class="about__description">The Legend of The Snowzone Begins!</p>
 
-              <p class="about__description">Legends Say The Snow Shogun Was Behind The Assault & Escape From Earth Helping All Penguins Seek Refuge And Safety From Mankind & Its Human Grasp It Was When They Found Solitude On The CubeVerse Meta Planet These Penguins Became A Legend For Generations To Come !!!!!!!!</p>
+              <p class="about__description">Legends say The Snow Shogun was behind the assault and escape from Earth, helping all penguins seek refuge and safety from mankind and its human grasp was when they found solitude on The CubeVerse Meta Planet. These penguins became a legend for generations to come !!!!!!!!
+              </p>
 
-              <p class="about__description">The Shogun Accompanied By The Legendary Percys Protected & Served All Penguins !!!!</p>
+              <p class="about__description">The Shogun accompanied by The Legendary Percys protected and served all penguins.</p>
 
-              <p class="about__description">They Came Across A Chilly 🥶 Meta Verse Called SNOW ZONE !!!!!</p>
+              <p class="about__description">They came across a chilly 🥶 Metaverse called The SNOWZONE</p>
 
-              <p class="about__description">Upon Building There Community They Stumbled Across A ROCK , As Bright As The Sun & As Colourful As A Rainbow This Meta Rock Was Special !!!</p>
+              <p class="about__description">Upon building their community, they stumbled across A ROCK , as bright as the sun and twice as colorful as a rainbow, this Meta Rock was special beyond anyone's imagination!</p>
 
-              <p class="about__description">The Rock Later Came To Be Called The Song Stone , Penguins Gathered In Mass Amounts Singing In Harmony One By One All Gaining Energy & Powers From The Mythical Song Stone !!!</p>
+              <p class="about__description">The rock later came to be called The Song Stone. Penguins gathered in mass numbers singing in harmony, one by one all gaining energy and powers from this mysterious stone.</p>
 
-              <p class="about__description">Then One Pair Of Penguins Took The Leap Like No Other They Used The Song Stone To Mate,</p>
+              <p class="about__description">Then one pair of penguins took the leap like no other had before and used The Song Stone to mate,</p>
 
-              <p class="about__description">Poppys Started Producing Eggs Like No Penguins Had Ever Seen Before !!!!</p>
+              <p class="about__description">Poppys started producing eggs, the likes the penguins had never seen, as breeding using The Song Stone created Prehistoric Meta Snow Eggs!</p>
 
               <p class="about__description">Breeding With The Song Stone From The Ground Of The CubeVerse Planet Created A Prehistoric Meta Snow EGG !!</p>
 
-              <p class="about__description">Then A 3rd Penguin Was Born </p>
+              <p class="about__description">Then a 3rd type of penguin was born.</p>
             </div>
           </div>
         </div>
@@ -90,31 +92,29 @@ const IndexPage = () => (
               <div class="roadmap__grid__item">
                 <div class="item__container">
                   <h2 class="roadmap__item__title">Phase 1</h2>
-                  <p class="roadmap__desc">We launched 7 Rotating Percy Penguins</p>
+                  <p class="roadmap__desc">We launched 7 rotating Percy Penguins.</p>
                   <button class="roadmap__btn" type="button"><Link to="https://opensea.io/collection/percy-penguin" class="roadmap__btn">Open Collection</Link></button>
                 </div>
               </div>
               <div class="roadmap__grid__item">
                 <div class="item__container">
                   <h2 class="roadmap__item__title">Phase 2</h2>
-                  <p class="roadmap__desc">We dropped 100 OG Percy's With Eggs Attached To Be Airdropped on launch of webpage & game. Launch of Percy & friends story A story based collaboration with Bojo Rhino Zombie Villagers Bruno Banana Bobo Face MoB Rubix Cups And many more
-                  </p>
+                  <p class="roadmap__desc">We dropped 100 OG Percys with Eggs attached to be airdropped on launch of the webpage and game. Launch of Percy & Friends story; A story based collaboration with Bojo Rhino, Zombie Villagers, Bruno Banana, Bobo Face, MoB, Rubix Cups and many more.</p>
                   <button class="roadmap__btn" type="button"><Link to="https://opensea.io/collection/percy-penguin" class="roadmap__btn">Open Collection</Link></button>
                 </div>
               </div>
               <div class="roadmap__grid__item">
                 <div class="item__container">
                   <h2 class="roadmap__item__title">Phase 3</h2>
-                  <p class="roadmap__desc">We launch 10K Penguins, 5k Percy, 5K Poppy Also With Some Massive Giveaways aswell as an Airdrop to OG holders. 
-                  </p>
+                  <p class="roadmap__desc">We launch 10K Penguins, 5k Percy, 5K Poppy also with some massive giveaways as well as an airdrop to OG holders.</p>
                   <button class="roadmap__btn" type="button" disabled=""><a href="https://opensea.io/collection/the-snow-zone" class="roadmap__btn">Open Collection</a></button>
                 </div>
               </div>
               <div class="roadmap__grid__item">
                 <div class="item__container">
                   <h2 class="roadmap__item__title">Phase 4</h2>
-                  <p class="roadmap__desc">You Will Be Able To Combine & breed Different Percy's & Poppy’s For Different Outcomes and types of penguin bred out of your Snow Egg</p>
-                  <p class="roadmap__desc">We have 3 types of snow eggs, The male and Female can breed</p>
+                  <p class="roadmap__desc">You will be able to combine and breed different Percys and Poppys for different outcomes and types of penguin bred out of your Snow Egg.</p>
+                  <p class="roadmap__desc">We have 3 types of Snow Eggs, the male and female can produce when bred.</p>
 
                   <ul class="roadmap__desc">
                     <li>Blue - Common</li>
@@ -124,7 +124,7 @@ const IndexPage = () => (
 
                   <p class="roadmap__desc">You can also "Rent-a-Percy"</p>
 
-                  <p class="roadmap__desc">This feature allows you to stud your male with other collectors to breed with! Cubedrop invites you to see for yourself and enter the snowzone</p>
+                  <p class="roadmap__desc">This feature allows you to stud your male with other collectors to breed with! Cubedrop invites you to see for yourself and enter The Snowzone</p>
                   <button class="roadmap__btn" type="button" disabled="">Coming soon</button>
                 </div>
               </div>
@@ -133,22 +133,26 @@ const IndexPage = () => (
                   <h2 class="roadmap__item__title">Phase 5</h2>
                   <p class="roadmap__desc">We Already have the snow league in place from the launch of the 100 OG Percy's!</p>
                     
-                  <p class="roadmap__desc">BUT will begin properly on phase 4 Think of it as a penguin World Cup.</p>
+                  <p class="roadmap__desc">BUT this will begin properly during Phase 4. Think of it as a Penguin World Cup.</p>
 
                   <p class="roadmap__desc">Daily league table reviews and rewards!</p>
 
-                  <p class="roadmap__desc">We will be giving away tons of stuff to league members ONLY all giveaways will be league members ONLY , you will be able to win snow eggs Percy's Poppy’s, Collab pieces , real life models & Merch & ETH All up for grabs!</p>
+                  <p class="roadmap__desc">We will be giving away tons of prizes to League Members ONLY. All giveaways will be League Members ONLY.</p>
+
+                  <p class="roadmap__desc">You will be able to win Snow Eggs, Percys, Poppys, Collab Pieces, real life models, merch & ETH all up for grabs!</p>
+
                   <button class="roadmap__btn" type="button" disabled="">Coming soon</button>
                 </div>
               </div>
               <div class="roadmap__grid__item">
                 <div class="item__container">
                   <h2 class="roadmap__item__title">Phase 6</h2>
-                  <p class="roadmap__desc">We aim to focus on the maintenance of our snow zone & snow lab ,</p>
+                  <p class="roadmap__desc">We aim to focus on the development of our Snowzone and Snow Lab.
+                  </p>
 
-                  <p class="roadmap__desc">We also want to play a big factor creating the secondary market for others to join and adopt a penguin they like or see Don’t forget each penguin has different rarity from skin texture to objects</p>
+                  <p class="roadmap__desc">We also want to play a big factor in creating the secondary market for others to join and adopt a penguin they like or see. Don’t forget each penguin has different rarities from skin texture to objects.</p>
 
-                  <p class="roadmap__desc">round & sky So we will be the engine to help get the penguins the secondary, third & forth homes they may need</p>
+                  <p class="roadmap__desc">Round and sky, so we will be the engine to help get the penguins the secondary, third and fourth homes they may need.</p>
                   <button class="roadmap__btn" type="button" disabled="">Coming soon</button>
                 </div>
               </div>

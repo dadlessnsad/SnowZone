@@ -23,11 +23,10 @@ const Footer = ({ siteTitle }) =>  (
         </div>
         <div class="footer__right">
         <StaticImage
-              src="../images/cube.png"
-              height={100}
-              width={100}
+              src="../images/cube__logo.png"
               quality={100}
               alt="cubedrop logo"
+              class="cubedrop__logo"
             />      
         </div>
     </footer>

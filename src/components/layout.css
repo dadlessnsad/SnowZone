@@ -493,7 +493,7 @@ header {
   min-height: 960px;
   padding: 0 60px;
 }
-.character__container {
+.character__section {
   display: flex;
   position: relative;
 }
@@ -513,7 +513,7 @@ header {
   display: flex;
   position: relative;
   align-items: center;
-  margin-left: 15px;
+  margin-left: 100px;
 }
 .footer__center {
   display: inline-flex;
@@ -524,7 +524,11 @@ header {
   display: flex;
   position: relative;
   align-items: center;
-  margin-right: 15px;
+  margin-right: 1px;
+}
+.cubedrop__logo {
+  position: relative;
+  display: flex;
 }
 .footer__links {
   text-decoration: none;
