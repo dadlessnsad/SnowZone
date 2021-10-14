@@ -488,14 +488,172 @@ header {
 /*#region My Character Page */
 .mycharacter__page {
   display: flex;
-  align-items: center;
-  justify-content: center;
   min-height: 960px;
   padding: 0 60px;
+  margin-top: 10rem;
 }
-.character__section {
-  display: flex;
+.mycharacter__page__gradient {
   position: relative;
+}
+
+.mycharacter__page__gradient::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: .6;
+  z-index: -1;
+  background: radial-gradient(171.4% 283.45% at -7.47% -21.19%,rgba(42,208,202,.2) 0,rgba(225,246,100,.2) 22.92%,rgba(254,176,254,.2) 46.88%,rgba(171,179,252,.2) 68.23%,rgba(93,247,164,.2) 87.5%,rgba(88,196,246,.2) 100%),#fff;
+  -webkit-transform: rotate(30deg);
+  transform: rotateX(180deg);
+  box-shadow: inset 0 50px 40px -2em #fff;
+}
+
+.mymcharacter__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 0;
+  padding: 60px 20px 0;
+}
+.mycharacter__title {
+  font-family: "Dosis",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  color: #000;
+}
+.mycharacter_tabs_wrapper {
+  position: relative;
+  margin-bottom: 40px;
+  width: 1110px;
+  margin: 60px auto;
+}
+.tabs {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  min-height: 60px;
+}
+.tab__items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 460px;
+  white-space: nowrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.active {
+  margin-right: 40px;
+  font-family: "Dosis",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0,0,0,.6);
+  padding-bottom: 9px;
+  cursor: default;
+  cursor: pointer;
+  color: #000;
+  border-bottom: 1px solid #000;
+  white-space: nowrap;
+  list-style: none;
+}
+.mycharacter__body {
+  position: relative;
+  display: flex;
+  width: 1110px;
+  margin: 60px auto;
+}
+.tab_saved_nfts {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    outline: none !important;
+    box-sizing: border-box;
+}
+.tabs_wallet {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    outline: none !important;
+    box-sizing: border-box;
+}
+.snowzone_NFTs {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 28px;
+  margin-bottom: 40px;
+}
+.snowzone_filter {
+  margin-bottom: 15px;
+}
+.snowzone_filter_label{
+  margin-bottom: 15px;
+}
+.snowzone_filter_label, span {
+  font-family: "Rajdhani",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: .2px;
+  color: #000;
+  margin-right: 15px;
+}
+.snowzone_dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 15px 16px;
+  cursor: pointer;
+  height: 47px;
+  margin-bottom: 15px;
+}
+.selected_snowzone_item {
+font-family: "Rajdhani",sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000;
+}
+.snowzone_search_by_name {
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 100%;
+  padding: 15px;
+}
+.snowzone_search_by_name_label {
+  margin-bottom: 15px;
+}
+.search_name_by_input {
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 100%;
+  padding: 15px;
+  display: inline-block;
+}
+.search_name_by_input, input {
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 100%;
+  padding: 15px;
+  display: inline-block;
 }
 /* #endregion */
 

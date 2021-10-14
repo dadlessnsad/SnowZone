@@ -62,9 +62,9 @@ const IndexPage = () => (
 
               <p class="about__description">The rock later came to be called The Song Stone. Penguins gathered in mass numbers singing in harmony, one by one all gaining energy and powers from this mysterious stone.</p>
 
-              <p class="about__description">Then one pair of penguins took the leap like no other had before and used The Song Stone to mate,</p>
+              <p class="about__description">Then one pair of penguins took the leap like no other had before and used The Song Stone to mate.</p>
 
-              <p class="about__description">Poppys started producing eggs, the likes the penguins had never seen, as breeding using The Song Stone created Prehistoric Meta Snow Eggs!</p>
+              <p class="about__description">Poppys started producing eggs,like the penguins had never seen, as breeding using The Song Stone created Prehistoric Meta Snow Eggs!</p>
 
               <p class="about__description">Breeding With The Song Stone From The Ground Of The CubeVerse Planet Created A Prehistoric Meta Snow EGG !!</p>
 
