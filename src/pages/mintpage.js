@@ -38,7 +38,7 @@ const MintPage = () => (
                   class="mintpercy__img"
                 />
               </div>
-              <div class="mint__button__container">
+              <div class="www.TheGuinz.com">
                 <PercyForm />
               </div>
             </div>
@@ -63,7 +63,7 @@ const MintPage = () => (
                   class="mintpoppy__img"
                 />
               </div>
-              <div class="mint__button__container">
+              <div class="www.TheGuinz.com">
                 <PoppyForm />
               </div>
             </div>
