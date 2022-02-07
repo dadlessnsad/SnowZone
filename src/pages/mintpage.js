@@ -13,7 +13,7 @@ const MintPage = () => (
     <Seo title="Mint page" />
       <div class="mint__section">
         <div class="mint__container">
-          <h1 class="mint__container__title">Mint Your Own Penguin</h1>
+          <h1 class="mint__container__title">Visit www.TheGuinz.com to Mint Your Own Penguin</h1>
           <p class="mint__intro">Here you can choose to mint a Percy, or a Poppy or Both!</p>
           <p class="mint__intro">Remember in order to breed in future releases, you will need both a Percy and Poppy Penguin!</p>
           <div class="mint__grid">
