@@ -10,7 +10,7 @@ export const ABI = [
     name: "mintPoppy",
     outputs: [],
     stateMutability: "payable",
-    type: "function",
+    type: "disabled=",
   },
   {
     inputs: [
@@ -23,7 +23,7 @@ export const ABI = [
     name: "mintPercy",
     outputs: [],
     stateMutability: "payable",
-    type: "function",
+    type: "disabled=",
   },
 ]
 
