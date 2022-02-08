@@ -15,45 +15,45 @@ export default class PercyForm extends Component {
     })
   }
 
-  handleSubmit = async event => {
-    event.preventDefault()
-    try {
-      const provider = new ethers.providers.Web3Provider(window.ethereum, {
-        chainId: 137,
-      })
-      const contract = new ethers.Contract(CONTRACT_ADDRESS, ABI, provider)
-      const signer = provider.getSigner()
-      const contractSigner = contract.connect(signer)
-      const weiValue = Number(this.state.amount) * 50
-      const weiValueString = weiValue.toString()
-      let estimatedGas
-      try {
-        const gasLimit = await contractSigner.estimateGas.mintPercy(
-          Number(this.state.amount),
-          {
-            value: ethers.utils.parseEther(weiValueString),
-          }
-        )
-        estimatedGas = gasLimit.mul(BigInt(12)).div(BigInt(10))
-        console.debug({ estimatedGas: BigInt(estimatedGas).toString() })
-      } catch (error) {
-        console.error(error)
-      }
-      const txParamsOverride = {
-        value: ethers.utils.parseEther(weiValueString),
-      }
-      if (estimatedGas) {
-        txParamsOverride.gasLimit = estimatedGas
-      }
-      const tx = await contractSigner.mintPercy(
-        Number(this.state.amount),
-        txParamsOverride
-      )
-    } catch (error) {
-      alert("Insufficient balance.");
-      console.error(error)
-    }
-  }
+//   handleSubmit = async event => {
+//     event.preventDefault()
+//     try {
+//       const provider = new ethers.providers.Web3Provider(window.ethereum, {
+//         chainId: 137,
+//       })
+//       const contract = new ethers.Contract(CONTRACT_ADDRESS, ABI, provider)
+//       const signer = provider.getSigner()
+//       const contractSigner = contract.connect(signer)
+//       const weiValue = Number(this.state.amount) * 50
+//       const weiValueString = weiValue.toString()
+//       let estimatedGas
+//       try {
+//         const gasLimit = await contractSigner.estimateGas.mintPercy(
+//           Number(this.state.amount),
+//           {
+//             value: ethers.utils.parseEther(weiValueString),
+//           }
+//         )
+//         estimatedGas = gasLimit.mul(BigInt(12)).div(BigInt(10))
+//         console.debug({ estimatedGas: BigInt(estimatedGas).toString() })
+//       } catch (error) {
+//         console.error(error)
+//       }
+//       const txParamsOverride = {
+//         value: ethers.utils.parseEther(weiValueString),
+//       }
+//       if (estimatedGas) {
+//         txParamsOverride.gasLimit = estimatedGas
+//       }
+//       const tx = await contractSigner.mintPercy(
+//         Number(this.state.amount),
+//         txParamsOverride
+//       )
+//     } catch (error) {
+//       alert("Insufficient balance.");
+//       console.error(error)
+//     }
+//   }
 
   render() {
     return (
