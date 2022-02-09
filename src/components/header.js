@@ -101,11 +101,7 @@ const Header = ({ siteTitle }) => {
           <Link class="desktop__nav__link" to="/">
             Home
           </Link>
-          <Link class="desktop__nav__link" to="../mintpage/">
-            Mint
-          </Link>
-          <Link class="desktop__nav__link">Breed</Link>
-          <Link class="desktop__nav__link">Incubator</Link>
+         
           <Link class="desktop__nav__link" to="/#roadmap">
             RoadMap
           </Link>
@@ -117,15 +113,15 @@ const Header = ({ siteTitle }) => {
               quality={100}
               alt="cube drop logo"
             />
-            <button class="header__btn" onClick={connectHandler}>
+            {/* <button class="header__btn" onClick={connectHandler}>
               {wallet}
-            </button>
+            </button> */}
           </div>
         </ui>
         <div class="account__container_sml">
-          <button class="header__btn" onClick={connectHandler}>
+          {/* <button class="header__btn" onClick={connectHandler}>
             {wallet}
-          </button>
+          </button> */}
         </div>
       </div>
     </header>

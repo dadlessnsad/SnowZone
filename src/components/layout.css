@@ -198,6 +198,13 @@ header {
   z-index: 1;
   overflow: hidden;
 }
+
+.theGuinz {
+  width: clamp(75%, 1080px);
+  height: min(100%, 600px);
+  border-radius: 12px;
+}
+
 .left {
   max-width: 627px;
 }

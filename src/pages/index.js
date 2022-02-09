@@ -10,36 +10,24 @@ const IndexPage = () => (
     <Seo title="Home" />
     <div class="homepage">
       <div class="welcome__section">
-        <StaticImage
-          src="../images/pfcommon1.png"
-          quality={100}
-          alt="Percy common skin one"
-          class="pfcommon__img"
-        />
-        <StaticImage
-          src="../images/pmcommon1.png"
-          quality={100}
-          alt="Percy common skin one"
-          class="pmcommon__img"
-        />
         <div class="welcome__section__container">
           <div class="left">
-            <h1 class="welcome__title">The Snowzone Metaverse Built on Polygon by Cube Drop</h1>
-              <p class="left__text">Mint, Breed, Stud-out your Penguins</p>
-              <div class="button__container">
-                <button class="left__button"><Link to="../mintpage/" class="left__button__link">Mint</Link></button>
-                <button class="left__button"><Link to="#roadmap" class="left__button__link">RoadMap</Link></button>
-              </div>
+              <a href="https://www.theguinz.com/"><StaticImage 
+                src="../images/logo.png"
+                quality={100}
+                alt="Guinz logo"
+                class="theGuinz"
+              /></a>
           </div>
           <div class="right">
-            <StaticImage
+            {/* <StaticImage
               src="../images/cube.png"
               height={400}
               width={400}
               quality={100}
               alt="Cube Drop logo"
               class="cubedrop__img"
-            />
+            /> */}
           </div>
         </div>
       </div>
@@ -74,18 +62,7 @@ const IndexPage = () => (
         </div>
 
         <div id="roadmap" class="roadmap__section">
-          <StaticImage
-          src="../images/pfcommon1.png"
-          quality={100}
-          alt="Percy common skin one"
-          class="pfcommon__img"
-          />
-          <StaticImage
-          src="../images/pmcommon1.png"
-          quality={100}
-          alt="Percy common skin one"
-          class="pmcommon__img"
-          />
+
           <div class="roadmap__container">
             <h1 class="roadmap__title">ROADMAP</h1>
             <div class="roadmap__grid">
